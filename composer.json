@@ -1,5 +1,5 @@
 {
-  "name": "igorescobar/jquery-mask-plugin",
+  "name": "kosikcz/nette-maskedinput",
   "type": "library",
   "description": "A jQuery Plugin to make masks on form fields and html elements.",
   "keywords": ["jquery", "mask", "plugin"],
@@ -15,5 +15,13 @@
   ],
   "support": {
     "issues": "https://github.com/igorescobar/jQuery-Mask-Plugin/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kosik\\": "src/Kosik/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0"
   }
 }
